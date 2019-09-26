@@ -1,0 +1,24 @@
+# "Listing of Pokemons"
+# type Pokemons {
+#   name: String
+# }
+
+# "Any given pokemon"
+# type Pokemon {
+#   id: ID!
+#   name: String
+#   types: [String]
+# "Four random moves picked for demo"
+#   moves: [Move]
+# }
+
+# "A specific move a pokemon can have"
+# type Move {
+#   name: String
+#   description: String
+# }
+
+# extend type Query {
+#   pokemon(name: String!): Pokemon
+#   listPokemons: [Pokemons]
+# }
